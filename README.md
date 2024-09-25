@@ -156,7 +156,7 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 
 
 ## STM 32 CUBE PROGRAM :
-
+```
 #include "main.h"
 #include "lcd.h"
 
@@ -257,7 +257,7 @@ void Error_Handler(void)
 #ifdef  USE_FULL_ASSERT
 void assert_failed(uint8_t *file, uint32_t line)
 #endif
-
+```
 
 
 
